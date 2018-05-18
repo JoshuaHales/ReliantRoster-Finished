@@ -1,0 +1,767 @@
+/*
+CYAN:   #00BCD4
+CYAN DARK: #0097A7
+Orange: #FF9800
+
+-old dark blue: #3C5A5A
+*/
+/* ------NAVBAR START STYLE------ */
+.navbar {
+    background-color: #00BCD4;
+    border: none;
+    min-height: 3%;
+    max-height: 62px;
+    position: fixed;
+}
+
+/* Navbar Header Brand */
+.navbar-header .navbar-brand {
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 26px;
+}
+
+/* Navbar Header Brand Hover */
+.navbar-header .navbar-brand:hover,
+.navbar-header .navbar-brand:focus {
+    color: #00BCD4;
+    background-color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 26px;
+}
+
+/* Navbar links Hover */
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #00BCD4;
+    background-color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 16px;
+}
+
+/* Navbar links */
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    padding-top: 17px;
+    margin-bottom: 0px;
+    padding-top: 17px;
+    margin-bottom: 0px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 16px;
+}
+
+/* Navbar Dropdown Menu */
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > li > a {
+    color: #00BCD4;
+    background-color: red;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* Menu Focus */
+ul.nav a:focus { 
+    color: white !important; 
+    background: #FF9800 !important;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* Login Button */
+.loginBtn {
+    /*color: #f39c12; */
+    background-color: #FF9800;
+    /*border-bottom-left-radius: 20px;*/
+}
+
+/* Navbar Collapse Style */
+.navbar-collapse {
+    background-color: #00BCD4;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+/* Arrow On Drop Down */
+.dropdown-menu:before {
+    position: absolute;
+    top: -7px;
+    left: 138px;
+    display: inline-block;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-left: 7px solid transparent;
+    border-bottom-color: white;
+    content: '';
+}
+
+.d2 > .dropdown-menu:before {
+    position: absolute;
+    top: -7px;
+    left: 182px;
+    display: inline-block;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-left: 7px solid transparent;
+    border-bottom-color: red;
+    content: '';
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.navbar-inverse .navbar-toggle {
+    background-color: rgba(243,156,18,0.9);
+    border: none;
+    box-shadow: 2px 2px 5px #2C2C2C;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #e2534b;
+    border: none;
+    box-shadow: 2px 2px 2px #2C2C2C;
+}
+/* ------NAVBAR END STYLE------ */
+
+/* ------BUTTONS START STYLE------ */
+.btn5 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF !important;
+    padding: 12px 30px;
+    background: #FF9800;
+    line-height: 20px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn5:hover {
+    background: #00BCD4;
+}
+
+.btn6 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #FFFFFF !important;
+    padding: 12px 30px;
+    background: #ffcc33;
+    line-height: 20px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    box-shadow: inset 0px -4px 0px #e2534b;
+    -webkit-box-shadow: inset 0px -4px 0px #f39c12;
+    -moz-box-shadow: inset 0px -4px 0px #f39c12;
+    -o-box-shadow: inset 0px -4px 0px #f39c12;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+.btn6:hover {
+    background: #f39c12;
+}
+.btn1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF !important;
+    padding: 10px 10px;
+    background: #ffcc33;
+    line-height: 20px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    box-shadow: inset 0px -4px 0px #f39c12;
+    -webkit-box-shadow: inset 0px -4px 0px #f39c12;
+    -moz-box-shadow: inset 0px -4px 0px #f39c12;
+    -o-box-shadow: inset 0px -4px 0px #f39c12;
+}
+
+.btn1:hover {
+    background: #f39c12;
+    text-decoration: none
+}
+
+.btn2 {
+    font-family: 'roboto_condensedregular';
+    font-size: 22px;
+    color: #FFFFFF !important;
+    padding: 10px 10px;
+    background: #ffcc33;
+    line-height: 20px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    box-shadow: inset 0px -4px 0px #f39c12;
+    -webkit-box-shadow: inset 0px -4px 0px #f39c12;
+    -moz-box-shadow: inset 0px -4px 0px #f39c12;
+    -o-box-shadow: inset 0px -4px 0px #f39c12;
+    margin-bottom: 5px;
+}
+
+.btn2:hover {
+    background: #f39c12;
+    text-decoration: none
+}
+/* ------BUTTONS STYLE END------ */
+
+/* ------SCROLL TO TOP STYLE START------ */
+.scroll-top {
+    position:fixed;
+    bottom:0;
+    right:6%;
+    z-index:100;
+    background: #ff9800;
+    font-size:24px;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+}
+
+.scroll-top a:link,.scroll-top a:visited {
+    color:#222;
+}
+/* ------SCROLL TO TOP STYLE END------ */
+
+/* ------SIDEBAR STYLE START------ */
+.sidebar {
+    margin-top: 20px;
+    background-color: #0097A7;
+    height: 100%;
+    position:fixed;
+}
+
+.active1 {
+    background-color: #FF9800;
+}
+
+.active1 a {
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.active1 a:hover {
+    color: #34495e;
+    background-color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.sidebar a {
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.sidebar a:hover {
+    color: #34495e;
+    background-color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.userW {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.userL {
+    margin-top: 60px;
+}
+
+.Sdivider {
+    border-top: 1px solid #fff !important;
+}
+
+.collapse a {
+    color: #34495e;
+}
+
+.list-group-submenu {
+  margin-left:20px;
+}
+/* ------SIDEBAR STYLE END------ */
+
+/* ------SIDE PANEL STYLE START------ */
+.panel-default {
+    opacity: 0.9;
+   
+}
+.form-group.last { margin-bottom:0px; }
+
+.panel-back {
+    background-color:#F8F8F8;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+.panel-back:hover {
+    background-color: rgba(35,156,86, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+.panel-backA {
+    background-color: rgba(35,156,86, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+.primary-font {
+    color: #FF9800;
+}
+
+.primary-font1 {
+    color: #ffcc33;
+}
+
+.panel-body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: -10px;
+    
+}
+
+.hrs {
+    margin-bottom: -10px;
+}
+
+.br {
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.panel2 {
+    margin-top: 200px;
+}
+/* ------SIDE PANEL END------ */
+
+h1
+{
+    font-size: 18px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+/* ------TABLE OPTIONS STYLE START------ */
+.noti-box {
+    min-height: 100px;
+    padding: 20px;
+}
+
+.noti-box .icon-box {
+    display: block;
+    float: left;
+    margin: 0 15px 10px 0;
+    width: 70px;
+    height: 70px;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+}
+.text-box p {
+    margin: 0 0 3px;
+}
+
+.main-text {
+    font-size: 25px;
+    font-weight:600;
+}
+
+.set-icon {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+
+}
+
+.bg-color-green {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.bg-color-blue {
+    background-color: #9b59b6;
+    color: #fff;
+}
+
+.bg-color-red {
+    background-color: #FF9800;
+    color: #fff;
+}
+
+.bg-color-brown {
+    background-color: #34495e;
+    color: #fff;
+}
+
+.icon-box-right {
+    display: block;
+    float: right;
+    margin: 0 15px 10px 0;
+    width: 70px;
+    height: 70px;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+}
+
+.viewA a{
+    color: white;
+}
+/* ------TABLE OPTIONS STYLE END------ */
+
+
+/* ------TABLE STYLE STYLE START------ */
+th {
+    background-color: #00BCD4;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+    position: relative;
+}
+
+.btn-view {
+    color: white;
+    background-color: #ffcc33;
+    font-weight: normal;
+}
+
+.btn-view:hover,
+.btn-view:focus,
+.btn-view:active,
+.btn-view.active,
+.open .dropdown-toggle.btn-edit {
+    /*background-color: ;*/
+    color: #ffcc33;
+    background-color: white;
+    font-weight: normal;
+}
+
+.btn-edit {
+    color: white;
+    background-color: #27ae60;
+    font-weight: normal;
+}
+.btn-edit {
+    color: white;
+    background-color: #27ae60;
+    font-weight: normal;
+}
+
+.btn-edit:hover,
+.btn-edit:focus,
+.btn-edit:active,
+.btn-edit.active,
+.open .dropdown-toggle.btn-edit {
+    /*background-color: ;*/
+    color: #27ae60;
+    background-color: white;
+    font-weight: normal;
+}
+
+.btn-delete {
+    color: white;
+    background-color: #e8645a;
+    font-weight: normal;
+}
+
+.btn-delete:hover,
+.btn-delete:focus,
+.btn-delete:active,
+.btn-delete.active,
+.open .dropdown-toggle.btn-delete {
+    /*background-color: ;*/
+    color: #e8645a;
+    background-color: white;
+    font-weight: normal;
+}
+
+.btnC {
+    margin-bottom: 0px;
+}
+
+.table {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+.thead {
+    background-color: #00BCD4;
+}
+/* ------TABLE STYLE STYLE END------ */
+
+/* ------DROP DOWN MENU STYLE START------ */
+.dropdown-menu {
+	background-color : white;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.dropdown-menu > li > a {
+	font-size: 15px;
+	font-weight: normal;
+	color: black !important;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:active,
+.dropdown-menu > li > a:focus {
+	font-size: 15px;
+	font-weight: normal;
+	color: white !important;
+	background: #FF9800 !important;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.page-header, .main-text, .Rtxt {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.main-text {
+    color: black;
+}
+
+.sub-header {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+/* ------DROP DOWN MENU STYLE END------ */
+
+
+/* ------OTHERS STYLE START------ */
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+    position: relative;
+    cursor: pointer;
+}
+
+/* View */
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+    position: absolute;
+    bottom: 150%;
+    left: 25%;
+    margin-bottom: 5px;
+    margin-left: -18px;
+    padding: 7px;
+    width: 75px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius:    3px;
+    border-radius:         3px;
+    background-color: #ffcc33;
+    color: #fff;
+    content: attr(data-tooltip);
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.2;
+    z-index: 1100;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -5px;
+    width: 0;
+    border-top: 5px solid #000;
+    border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+
+
+/*Edit */
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip1] {
+    position: relative;
+    cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip1]:before,
+[data-tooltip1]:after {
+  visibility: hidden;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip1]:before {
+    position: absolute;
+    bottom: 150%;
+    left: 25%;
+    margin-bottom: 5px;
+    margin-left: -18px;
+    padding: 7px;
+    width: 75px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius:    3px;
+    border-radius:         3px;
+    background-color: #27ae60;
+    color: #fff;
+    content: attr(data-tooltip1);
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.2;
+    z-index: 1100;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip1]:after {
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -5px;
+    width: 0;
+    border-top: 5px solid #000;
+    border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip1]:hover:before,
+[data-tooltip1]:hover:after {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+
+
+/* Delete */
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip2] {
+    position: relative;
+    cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip2]:before,
+[data-tooltip2]:after {
+  visibility: hidden;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip2]:before {
+    position: absolute;
+    bottom: 150%;
+    left: 25%;
+    margin-bottom: 5px;
+    margin-left: -20px;
+    padding: 7px;
+    width: 75px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius:    3px;
+    border-radius:         3px;
+    background-color: #e8645a;
+    color: #fff;
+    content: attr(data-tooltip2);
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.2;
+    z-index: 1100;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip2]:after {
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -5px;
+    width: 0;
+    border-top: 5px solid #000;
+    border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip2]:hover:before,
+[data-tooltip2]:hover:after {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+/* ------OTHERS STYLE END------ */
+
+#homePageForm2{
+    z-index: 100;
+}
+
+.logReg h4, h2, h3{
+    color: #009787;
+    font-weight: 700;
+}

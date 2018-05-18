@@ -1,0 +1,28 @@
+<!-- Main activity frame layout Start -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragmentContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- No rosters TextView Start -->
+    <TextView
+        android:id="@+id/noRosters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/noRoster" />
+    <!-- No rosters TextView End -->
+
+    <!-- FloatingActionButton reload Start -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/reloadBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="15dp"
+        android:clickable="true"
+        android:onClick="reloadList"
+        android:src="@drawable/reload" />
+    <!-- FloatingActionButton reload End -->
+</FrameLayout>
+<!-- Main activity frame layout Start -->

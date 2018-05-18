@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fragment Roster activity frame layout Start -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.reliantroster.app.RosterFragment">
+
+    <!-- Blue info tab Layout Start -->
+    <RelativeLayout
+        android:id="@+id/blueLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/primaryBlue">
+
+        <!-- Title (Week) Heading Start -->
+        <TextView
+            android:id="@+id/titleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="35dp"
+            android:text="@string/week"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <!-- Title (Week) Heading End -->
+
+        <!-- Title (Week) Value Start -->
+        <TextView
+            android:id="@+id/book_title_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/titleTV"
+            android:layout_alignRight="@+id/titleTV"
+            android:layout_below="@+id/titleTV"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="18dp"
+            android:textSize="15sp"
+            android:hint="@string/weekValue"
+            android:inputType="none"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+        <!-- Title (Week) Value End -->
+
+        <!-- Description (Period) Heading Start -->
+        <TextView
+            android:id="@+id/descriptionTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignTop="@+id/book_title_editText"
+            android:layout_marginTop="5dp"
+            android:paddingRight="35dp"
+            android:text="@string/periodHeader"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <!-- Description (Period) Heading End -->
+
+        <!-- Description (Period) Value Start -->
+        <TextView
+            android:id="@+id/roster_description_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/descriptionTV"
+            android:layout_alignStart="@+id/descriptionTV"
+            android:layout_below="@+id/descriptionTV"
+            android:hint="@string/periodValue"
+            android:inputType="none"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+        <!-- Description (Period) Heading Start -->
+
+        <!-- Yellow Divider Bellow Title(week) & Descriotion(period) Start -->
+        <View
+            android:id="@+id/SplitLine_hor1"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@+id/roster_description_editText"
+            android:background="@color/primaryOrange" />
+        <!-- Yellow Divider Bellow Title(week) & Descriotion(period) Start -->
+    </RelativeLayout>
+    <!-- Blue info tab Layout End -->
+
+    <!-- Divider Bellow Blue Start -->
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/blueLayout" />
+    <!-- Divider Bellow Blue End -->
+
+    <!-- Monday layout Start -->
+    <RelativeLayout
+        android:id="@+id/mondayDiv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider1">
+
+        <!-- Monday Heading Start -->
+        <TextView
+            android:id="@+id/mondayTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="7dp"
+            android:text="@string/monday"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <!-- Monday Heading End -->
+
+        <!-- Monday Value Start -->
+        <TextView
+            android:id="@+id/roster_monday_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mondayTV"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:ellipsize="end"
+            android:hint="@string/timeValue"
+            android:inputType="none"
+            android:maxLength="17"
+            android:paddingRight="7dp"
+            android:singleLine="true"
+            android:textSize="20sp" />
+        <!-- Monday Value End -->
+    </RelativeLayout>
+    <!-- Monday layout End -->
+
+    <!-- Divider Bellow Monday Start -->
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/mondayDiv" />
+    <!-- Divider Bellow Monday End -->
+
+    <!-- Tuesday layout Start -->
+    <RelativeLayout
+        android:id="@+id/tuesdayDiv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider2"
+        android:background="@color/rosterGrey">
+
+        <!-- Tuesday Heading Start -->
+        <TextView
+            android:id="@+id/tuesdayTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="7dp"
+            android:text="@string/tuesday"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <!-- Tuesday Heading End -->
+
+        <!-- Tuesday Value Start -->
+        <TextView
+            android:id="@+id/roster_tuesday_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tuesdayTV"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:ellipsize="end"
+            android:hint="@string/timeValue"
+            android:inputType="none"
+            android:maxLength="17"
+            android:paddingRight="7dp"
+            android:singleLine="true"
+            android:textSize="20sp" />
+        <!-- Tuesday Value End -->
+    </RelativeLayout>
+    <!-- Tuesday layout End -->
+
+    <!-- Divider below Tuesday Start -->
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/tuesdayDiv" />
+    <!-- Divider bellow Tuesday End -->
+
+    <!-- Wednesday layout Start -->
+    <RelativeLayout
+        android:id="@+id/wednesdayDiv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider3">
+
+        <!-- Wednesday Heading Start -->
+        <TextView
+            android:id="@+id/wednesdayTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="7dp"
+            android:text="@string/wednesday"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <!-- Wednesday Heading End -->
+
+        <!-- Wednesday Value Start -->
+        <TextView
+            android:id="@+id/roster_wednesday_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/wednesdayTV"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:ellipsize="end"
+            android:hint="@string/timeValue"
+            android:inputType="none"
+            android:maxLength="17"
+            android:paddingRight="7dp"
+            android:singleLine="true"
+            android:textSize="20sp" />
+        <!-- Wednesday Value End -->
+    </RelativeLayout>
+    <!-- Wednesday layout End -->
+
+    <!-- Divider bellow Wednesday Start -->
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/wednesdayDiv" />
+    <!-- Divider bellow Wednesday End -->
+
+    <!-- Thursday layout Start -->
+    <RelativeLayout
+        android:id="@+id/thursdayDiv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider4"
+        android:background="@color/rosterGrey">
+
+        <!-- Thursday Heading Start -->
+        <TextView
+            android:id="@+id/thursdayTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="7dp"
+            android:text="@string/thursday"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <!-- Thursday Heading End -->
+
+        <!-- Thursday Value Start -->
+        <TextView
+            android:id="@+id/roster_thursday_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/thursdayTV"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:ellipsize="end"
+            android:hint="@string/timeValue"
+            android:inputType="none"
+            android:maxLength="17"
+            android:paddingRight="7dp"
+            android:singleLine="true"
+            android:textSize="20sp" />
+        <!-- Thursday Value End -->
+    </RelativeLayout>
+    <!-- Thursday layout End -->
+
+    <!-- Divider bellow Thursday Start -->
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/thursdayDiv" />
+    <!-- Divider bellow Thursday End -->
+
+    <!-- Friday layout Start -->
+    <RelativeLayout
+        android:id="@+id/fridayDiv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider5">
+
+        <!-- Friday Heading Start -->
+        <TextView
+            android:id="@+id/fridayTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="7dp"
+            android:text="@string/friday"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <!-- Friday Heading End -->
+
+        <!-- Friday Value Start -->
+        <TextView
+            android:id="@+id/roster_friday_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/fridayTV"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:ellipsize="end"
+            android:hint="@string/timeValue"
+            android:inputType="none"
+            android:maxLength="17"
+            android:paddingRight="7dp"
+            android:singleLine="true"
+            android:textSize="20sp" />
+        <!-- Friday Value End -->
+    </RelativeLayout>
+    <!-- Friday layout Start -->
+
+    <!--Divider bellow Friday Start -->
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/fridayDiv" />
+    <!--Divider bellow Friday End -->
+
+    <!-- Saturday layout Start -->
+    <RelativeLayout
+        android:id="@+id/saturdayDiv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider6"
+        android:background="@color/rosterGrey">
+
+        <!-- Saturday Heading Start -->
+        <TextView
+            android:id="@+id/saturdayTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="7dp"
+            android:text="@string/saturday"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <!-- Saturday Heading End -->
+
+        <!-- Saturday Value Start -->
+        <TextView
+            android:id="@+id/roster_saturday_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/saturdayTV"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:ellipsize="end"
+            android:hint="@string/timeValue"
+            android:inputType="none"
+            android:maxLength="17"
+            android:paddingRight="7dp"
+            android:singleLine="true"
+            android:textSize="20sp" />
+        <!-- Saturday Value End -->
+    </RelativeLayout>
+    <!-- Saturday layout End -->
+
+    <!-- Divider bellow Saturday Start -->
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/saturdayDiv" />
+    <!-- Divider bellow Saturday End -->
+
+    <!-- Sunday layout Start -->
+    <RelativeLayout
+        android:id="@+id/sundayDiv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider7">
+
+        <!-- Sunday Heading Start -->
+        <TextView
+            android:id="@+id/sundayTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="7dp"
+            android:text="@string/sunday"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <!-- Sunday Heading Start -->
+
+        <!-- Sunday Value Start -->
+        <TextView
+            android:id="@+id/roster_sunday_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sundayTV"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:ellipsize="end"
+            android:hint="@string/timeValue"
+            android:inputType="none"
+            android:maxLength="17"
+            android:paddingRight="7dp"
+            android:singleLine="true"
+            android:textSize="20sp" />
+        <!-- Sunday Value End -->
+    </RelativeLayout>
+    <!-- Sunday layout End -->
+
+    <!-- Return Home ImageButton Start -->
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/homebutton"
+        android:onClick="onHomeButtonClick"
+        android:paddingTop="20dp" />
+    <!-- Return Home ImageButton End -->
+
+    <!-- Right Arrow Click Start -->
+    <ImageButton
+        android:id="@+id/rightArrow"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/homeButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rightarrow"
+        android:paddingTop="20dp" />
+    <!-- Right Arrow Click End -->
+
+    <!-- Left Arrow Click Start -->
+    <ImageButton
+        android:id="@+id/leftArrow"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/rightArrow"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/leftarrow"
+        android:paddingTop="20dp" />
+    <!-- Left Arrow Click End -->
+
+    <!-- Total Heading Start -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sundayDiv"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="50dp"
+        android:paddingTop="20dp"
+        android:text="@string/totalHeader"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="16sp" />
+    <!-- Total Heading End -->
+
+    <!-- Total Value Start -->
+    <TextView
+        android:id="@+id/roster_total_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/timeValue"
+        android:inputType="none"
+        android:paddingLeft="50dp"
+        android:paddingTop="20dp"
+        android:singleLine="true"
+        android:textSize="16sp" />
+    <!-- Total Value Start -->
+</RelativeLayout>
+<!-- Fragment Roster activity frame layout End -->

@@ -1,0 +1,13 @@
+<!-- Main Stlye Resources Start -->
+<resources>
+    <!-- Base application theme Start -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customized theme colours Start -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Customized theme colours End -->
+    </style>
+    <!-- Base application theme End -->
+</resources>
+<!-- Main Stlye Resources End -->

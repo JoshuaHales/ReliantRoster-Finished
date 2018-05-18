@@ -1,0 +1,32 @@
+input{
+    font-size: 19px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 3px;
+    background: #fff;
+    border: 1px solid #aac;
+}
+
+input.time {
+    width: 80px;
+    margin-right: 10px;
+}
+
+input.date {
+    width: 90px;
+}
+
+a {
+    color: #06c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+image {
+    border: 0;
+}
+

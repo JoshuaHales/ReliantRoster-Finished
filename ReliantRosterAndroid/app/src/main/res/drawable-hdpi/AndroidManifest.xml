@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.reliantroster.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+    <!-- Declaring the min and max SDK version -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+ <!-- Allowing project to connect to internet -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+ <!-- Allowing check on project network state -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- Allowing check on project wifi state -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+ <!-- Declaring project launcher logo - Declaring project name - Declaring project style class -->
+        <activity
+            android:name="com.reliantroster.app.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+ <!-- Declaring login activity, allowing portrait only -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+ <!-- Declaring LoginActivity class to be main activty of project -->
+                <category android:name="android.intent.category.LAUNCHER" />
+ <!-- Declaring LoginActivity class to be launcher class of project -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.reliantroster.app.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:screenOrientation="portrait" />
+ <!-- Declaring register activity, allowing portrait only -->
+        <activity
+            android:name="com.reliantroster.app.RosterActivity"
+            android:label="Rosters"
+            android:screenOrientation="portrait" />
+ <!-- Declaring rosters activity, allowing portrait only -->
+        <activity
+            android:name="com.reliantroster.app.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+ <!-- Declaring main activity, allowing portrait only -->
+        </activity>
+    </application>
+
+</manifest>

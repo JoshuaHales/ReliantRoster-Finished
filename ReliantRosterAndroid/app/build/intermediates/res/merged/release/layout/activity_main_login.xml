@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Login activity frame layout Start -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_login"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- Main logo ImageView Start -->
+    <ImageView
+        android:contentDescription="@string/mainLogoImg"
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/logo" />
+    <!-- Main logo ImageView End -->
+
+    <!-- Main text Start -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text="@string/mainText"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+    <!-- Main text End -->
+
+    <!-- LinearLayout Start -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <!-- Username EditText Start -->
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:hint="@string/hint_userName"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_login"
+            android:textColorHint="@color/input_login_hint" />
+        <!-- Username EditText End -->
+
+        <!-- Password EditText Start -->
+        <EditText
+            android:id="@+id/user_pass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_login"
+            android:textColorHint="@color/input_login_hint" />
+        <!-- Password EditText End -->
+
+        <!-- Remember me CheckBox Start -->
+        <CheckBox
+            android:id="@+id/checkBoxLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:adjustViewBounds="true"
+            android:button="@drawable/custom_checkbox"
+            android:maxHeight="20dp"
+            android:onClick="saveUser"
+            android:scaleType="fitCenter"
+            android:text="@string/rememberMe"
+            android:textColor="@color/white" />
+        <!-- Remember me CheckBox End -->
+
+        <!-- Login Button Start -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:onClick="userLogin"
+            android:text="@string/btn_login"
+            android:textColor="@color/btn_login" />
+        <!-- Login Button End -->
+
+        <!-- Link to register screen Button Start -->
+        <Button
+            android:id="@+id/btnLinkToRegisterScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@null"
+            android:onClick="userReg"
+            android:text="@string/btn_link_to_register"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+        <!-- Link to register screen Button End -->
+
+    </LinearLayout>
+    <!-- LinearLayout End -->
+</LinearLayout>
+<!-- Login activity frame layout Start -->

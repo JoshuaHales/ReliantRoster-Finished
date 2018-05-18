@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- String Resources Start -->
+<resources>
+    <string name="app_name">ReliantRoster</string>
+    <string name="action_settings">Settings</string>
+    <string name="week">Week</string>
+    <string name="description">Description</string>
+    <string name="monday">Monday:</string>
+    <string name="tuesday">Tuesday:</string>
+    <string name="thursday">Thursday:</string>
+    <string name="wednesday">Wednesday:</string>
+    <string name="friday">Friday:</string>
+    <string name="saturday">Saturday:</string>
+    <string name="sunday">Sunday:</string>
+    <string name="roster_activity_title">Your Rosters</string>
+    <string name="hint_userName">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_main">title_activity_main</string>
+    <string name="weekValue">00</string>
+    <string name="periodHeader">Period</string>
+    <string name="periodValue">12th - 19th</string>
+    <string name="timeValue">OFF</string>
+    <string name="totalHeader">Total:</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="mainText">ReliantRoster</string>
+    <string name="mainLogoImg">Main Logo</string>
+    <string name="rememberMe">Remember me</string>
+    <string name="noRoster">No rosters assigned to you.</string>
+</resources>
+<!-- String Resources Start -->

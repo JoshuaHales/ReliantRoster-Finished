@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_snackbar_background.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\custom_checkbox.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\src\\main\\res\\drawable\\custom_checkbox.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_fab_background.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\leftarrow.png",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\src\\main\\res\\drawable\\leftarrow.png"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\logo.png",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\rightarrow.png",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\src\\main\\res\\drawable\\rightarrow.png"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\calender.png",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\src\\main\\res\\drawable\\calender.png"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\checked.png",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\src\\main\\res\\drawable\\checked.png"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\reload.png",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\src\\main\\res\\drawable\\reload.png"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\unchecked.png",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\src\\main\\res\\drawable\\unchecked.png"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\homebutton.png",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\src\\main\\res\\drawable\\homebutton.png"
+    },
+    {
+        "merged": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "N:\\3rd Year Project\\Project Work (19-2-16)\\ReliantRosterAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    }
+]
